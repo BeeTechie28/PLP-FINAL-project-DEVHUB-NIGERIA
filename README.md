@@ -63,34 +63,37 @@ The frontend enrollment form calls the `/api/users` POST endpoint to save enroll
 ### 4. Project Structure
 
 devhub-nigeria/
-├── backend/ # Node.js / Express server
-│ ├── config/
-│ │ └── connectDB.js # MongoDB connection
-│ ├── controllers/
-│ │ └── userController.js # CRUD logic for users
-│ ├── models/
-│ │ └── User.js # Mongoose User model
-│ ├── routes/
-│ │ └── userRoutes.js # Express routes
-│ └── server.js # Entry point
-├── frontend/ # React client
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ │ ├── Auth/EnrollmentPage.jsx
-│ │ ├── Navbar.jsx
-│ │ ├── Footer.jsx
-│ │ └── ...other reusable components
-│ ├── pages/
-│ │ ├── AboutPage.jsx
-│ │ ├── CoursesPage.jsx
-│ │ ├── CommunityPage.jsx
-│ │ └── ContactPage.jsx
-│ ├── App.js
-│ └── index.js
-├── .env # Environment variables
-├── package.json
-└── README.md
+├── backend/                  # Node.js / Express server
+│   ├── config/
+│   │   └── connectDB.js       # MongoDB connection setup
+│   ├── controllers/
+│   │   └── userController.js  # CRUD logic for users
+│   ├── models/
+│   │   └── User.js            # Mongoose User model
+│   ├── routes/
+│   │   └── userRoutes.js      # Express routes
+│   └── server.js              # Backend entry point
+│
+├── frontend/                  # React client
+│   ├── public/                # Public assets (index.html, images, etc.)
+│   └── src/
+│       ├── components/        # Reusable components
+│       │   ├── Auth/
+│       │   │   └── EnrollmentPage.jsx
+│       │   ├── Navbar.jsx
+│       │   ├── Footer.jsx
+│       │   └── ...other reusable components
+│       ├── pages/             # Page components
+│       │   ├── AboutPage.jsx
+│       │   ├── CoursesPage.jsx
+│       │   ├── CommunityPage.jsx
+│       │   └── ContactPage.jsx
+│       ├── App.js             # Main React app
+│       └── index.js           # React entry point
+│
+├── .env                       # Environment variables (not uploaded to GitHub)
+├── package.json               # Project dependencies and scripts
+└── README.md                  # Project description and instructions
 
 
 ---
@@ -160,5 +163,6 @@ Nigerian tech diaspora for mentorship and resources
 Community members contributing their time and expertise
 
 Partner companies supporting digital empowerment across Africa
+
 
 
