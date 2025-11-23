@@ -4,6 +4,9 @@ DevHub Nigeria is a dynamic platform dedicated to accelerating the growth of tec
 
 ---
 
+DevHub Nigeria Website Link:
+https://plp-final-project-devhub-nigeria-mg.vercel.app/
+
 ## ✨ Features & Offerings
 
 DevHub Nigeria serves as a central hub for learning, collaboration, and career acceleration for African tech professionals.
@@ -163,6 +166,7 @@ Nigerian tech diaspora for mentorship and resources
 Community members contributing their time and expertise
 
 Partner companies supporting digital empowerment across Africa
+
 
 
 
